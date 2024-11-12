@@ -1,7 +1,8 @@
 // webrtc.js
 
 // Connect to signaling server
-const signalingServer = io('http://localhost:3000');
+// const signalingServer = io('http://localhost:3000');
+const signalingServer = io('https://pro7-nyby.onrender.com');
 
 // STUN server configuration
 const configuration = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] };
